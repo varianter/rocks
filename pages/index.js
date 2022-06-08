@@ -5,11 +5,11 @@ import styles from "../styles/Home.module.css";
 import favicon from "@variant/profile/lib/logo/favicon.png";
 
 export default function Home() {
-  const [{ x, y, scale }] = useState(() => ({
-    x: random(0, 100),
-    y: random(0, 100),
-    scale: random(800, 1000),
-  }));
+  const [{ x, y, scale }, setSettings] = useState(generate);
+
+  useEffect(() => {
+    setSettings(generate);
+  }, []);
 
   useEffect(() => {
     const comment = document.createComment(
@@ -56,6 +56,14 @@ If you too want too want to know the rules, check out https://www.variant.no/job
       </main>
     </div>
   );
+}
+
+function generate() {
+  return {
+    x: random(0, 100),
+    y: random(0, 100),
+    scale: random(800, 1000),
+  };
 }
 
 function random(min, max) {
