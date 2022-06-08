@@ -36,6 +36,7 @@ If you too want too want to know the rules, check out https://www.variant.no/job
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@variant_as" />
         <meta property="og:title" content="Variant Rocks!" key="og:title" />
+        <meta property="og:image" content="https://variant.rocks/og.png" />
         <meta
           property="og:description"
           content="See your unique Variant logo. Just like a NFT, only infinitely better for you and the environment. Only exists in the now so take it in."
