@@ -14,3 +14,8 @@ a {
 * {
   box-sizing: border-box;
 }
+
+html {
+  background: url("/bg.svg") center center no-repeat;
+  background-size: cover;
+}

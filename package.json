@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "@variant/rocks",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@variant/profile": "^3.0.1",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0"
