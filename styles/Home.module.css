@@ -37,6 +37,6 @@
   background-image: url("/pattern.svg");
   position: absolute;
   width: 100%;
-  background-size: 900%;
+  background-size: var(--scale, 900%);
   background-position: var(--x, 40%) var(--y, 50%);
 }
